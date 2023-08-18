@@ -1,0 +1,140 @@
+.container {
+    background-color: #00BFFF;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-box {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-heading-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+}
+
+.p2 {
+    position: relative;
+}
+
+/* .app-data-table {} */
+
+h1 {
+    font-size: 35px;
+}
+
+.td-num {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    left: 450px;
+    bottom: -7px;
+}
+
+.button {
+    background-color: rgb(226, 156, 25);
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.button:hover {
+    background-color: #a78d5c
+}
+
+
+/*[class*="center"] {*/
+/*    width: 10%*/
+/*}*/
+
+/*@media only screen and (min-width: 768px) {*/
+/*    .center {width: 10%}*/
+/*}*/
+
+table.center {
+    /* margin-left: 210px;
+    margin-right: 250px;
+    margin-top: 30px; */
+}
+
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0px 4px #888888;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+th {
+    width: 7%;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: left;
+    background-color: #22ca4f;
+    color: white;
+}
+
+.customers td {
+    /* padding: 10px; */
+    padding: 12px;
+    margin: 0;
+    border-collapse: collapse;
+    /* border: 1px solid red; */
+}
+
+
+
+.customers tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.customers tr:nth-child(odd) {
+    background-color: rgb(149, 203, 247);
+}
+
+
+.customers th {
+    padding: 12px;
+    text-align: left;
+    background-color: #22ca4f;
+    color: white;
+}
+.para{
+    left: 33%;
+}
+

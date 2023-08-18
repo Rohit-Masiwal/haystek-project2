@@ -1,0 +1,12 @@
+/* Smaller screens */
+@media screen and (max-width: 480px) {
+    .p1 {
+        font-size: 25px;
+    }
+
+    .td-num {
+        font-size: 20px;
+    }
+
+}
+
