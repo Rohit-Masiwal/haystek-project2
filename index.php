@@ -14,38 +14,79 @@
 <body class="container">
 <div class="app-box">
     <div class="app-heading-box">
-        <p class="p1">PEOPLE DATA</p>
-        <button type="button" class="button">NEXT PERSON</button>
+        <?php
+        echo '<p class="p1">';
+        echo "PEOPLE DATA";
+        echo '</p>';
+        ?>
+        <?php
+        echo '<button type="button" class="button">';
+        echo "NEXT PERSON";
+        echo '</button>';
+        ?>
     </div>
     <div class="app-data-table">
         <table class="customers">
             <tr>
-                <th rowspan="2" style="width:7%">1
+                <th rowspan="2" style="width:7%">
+                    <?php
+                    echo '1';
+                    ?>
                 </th>
-                <td>Name: John Smith</td>
+                <td>
+                    <?php
+                    echo 'Name: John Smith';
+                    ?>
+                </td>
             </tr>
             <tr>
-                <td>Location: New York, NY</td>
+                <td>
+                    <?php
+                    echo 'Location: New York, NY';
+                    ?>
+                </td>
             </tr>
         </table>
         <table class="customers">
             <tr>
-                <th rowspan="2" style="width:7%">2
+                <th rowspan="2" style="width:7%">
+                    <?php
+                    echo '2';
+                    ?>
                 </th>
-                <td>Name: Jane Doe</td>
+                <td>
+                    <?php
+                    echo 'Name: Jane Doe';
+                    ?>
+                </td>
             </tr>
             <tr>
-                <td>Location: Los Angeles, CA</td>
+                <td>
+                    <?php
+                    echo 'Location: Los Angeles, CA';
+                    ?>
+                </td>
             </tr>
         </table>
         <table class="customers">
             <tr>
-                <th rowspan="2" style="width:7%">3
+                <th rowspan="2" style="width:7%">
+                    <?php
+                    echo '3';
+                    ?>
                 </th>
-                <td>Name: Bob Johnson</td>
+                <td>
+                    <?php
+                    echo 'Name: Bob Johnson';
+                    ?>
+                </td>
             </tr>
             <tr>
-                <td>Location: Chicago, IL</td>
+                <td>
+                    <?php
+                    echo 'Location: Chicago, IL';
+                    ?>
+                </td>
             </tr>
         </table>
     </div>
