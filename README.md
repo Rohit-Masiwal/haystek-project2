@@ -1,5 +1,5 @@
 # haystek-project
-**Deployed application website link: https://haystek-project.000webhostapp.com/**
+**Deployed application website link: https://static-website-haystek.000webhostapp.com**
 
 This Test is to demonstrate an understanding of PHP, HTML, and CSS.
 
